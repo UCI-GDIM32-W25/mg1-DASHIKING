@@ -6,6 +6,6 @@
 The plan I wrote in my MG1 break‑down directly connects to the code I implemented.
 For example, my plan said the player should move and plant seeds, and this became the Player class with the MovePlayer(), CheckPlantInput(), and PlantSeed() methods.
 
-My plan also included updating the UI, which I implemented in the PlantCountUI class using the UpdateSeeds() method. These methods update the TextMeshPro objects in my Canvas, such as Text_SeedsPlantedNum and Text_SeedsRemainingNum.
+ My plan also included updating the UI, which I implemented in the PlantCountUI class using the UpdateSeeds() method. These methods update the TextMeshPro objects in my Canvas, such as Text_SeedsPlantedNum and Text_SeedsRemainingNum.
 
 Finally, the step in my plan about spawning plants only when the player presses SPACE is handled by instantiating the Plant prefab in the PlantSeed() method. No Plant GameObjects exist in the scene at the start, matching my original design.
